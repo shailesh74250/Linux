@@ -1,0 +1,7 @@
+Targeted project
+
+1. OS -> bootloader, writing data on disk, retraveing data from disk, device drivers, network software, data backup, security, robustness, building shell, shell scripting, all commands should modify.
+2. language building, library, module building
+3. server building web-server and application-server like amazon instant
+4. utility softwares
+
