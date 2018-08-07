@@ -1,0 +1,58 @@
+VI Text Editor with Commands
+The VI editor is the most popular and classic text editor in the linux family. Below, are some reasons which make it a widely used editor-
+* it is available in almost all linux distro
+* it works the same across different platforms and distro
+* it is user-friendly. Hence, millions of linux users love it and use if for their editing needs
+
+Nowadays, there are advanced versions of the vi editor available, and the most popular one is VIM which is Vi improved. some of the other ones are Elvis, Nvi, Nano, and Vile.  It is wise to learn vi because it is feature-rich and offers endless possibilities to edit a file.
+
+Command mode:
+* The vi editor opens in this mode, and it only understands commands
+* In this mode, you can, move the cursor and cut, copy, paste the text
+* this mode also saves the changes you have made to the file
+* commands are case sensitive. we should use the right letter case.
+
+
+Insert mode:
+* for switch to insert mode from the command mode by pressing 'i' on the keyborad
+* come out from insert press Esc key
+
+VI - several commands
+Keystrokes 	Action
+i 		insert at cursor (goes into insert mode)
+a		write after cursor (goes into insert mode)
+A		write at the end of line (goes into insert mode)
+ESC		Terminate insert mode
+u		Undo last change
+U		Undo all changes to the entire line
+o		open a new line (goes into insert mode)
+dd		Delete line
+3dd		delete 3 lines
+D		delete contents of line after the cursor
+C		delete contents of a line after the cursor and insert new text. press ESC key to end insertion
+dw		delete word
+4dw		delete 4 words
+cw		change word
+x		delete character at the cursor
+r 		replace character
+R		overwrite characters from cursor onward
+s		subsitute one character under cursor continue to insert
+S		subsitute entire line and begin to insert at the beginning of the line
+~		change case of individual character
+
+
+Moving within a file
+keystroke		use
+k			move cursor up
+j			move cursor down
+h			move cursor left
+l			move cursor right
+
+Saving and closing the file
+keystroke		use
+Shift + zz		save the file and quit
+:w			save the file but keep it open
+:q			quit without saving
+:wq			save the file and quit
+
+
