@@ -1,0 +1,15 @@
+ sudo rm /opt/lampp/logs/httpd.pid
+// get listen pid
+ sudo netstat -nap | grep :80
+example of output:
+
+tcp6   0  0 :::80  :::*  LISTEN  14417/httpd
+PID is 14417
+
+kill proc
+
+ sudo kill 14417
+start/restart lampp server
+
+ sudo /opt/lampp/lampp restart
+
